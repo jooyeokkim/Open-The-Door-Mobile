@@ -27,7 +27,7 @@ public class NejikoController : MonoBehaviour {
 		var audios = GetComponents<AudioSource>();
 		walksound = audios [0];
 		jumpsound = audios [1];
-		speedZ = 5;
+		speedZ = 8;
 	}
 	
 	// Update is called once per frame
@@ -76,12 +76,12 @@ public class NejikoController : MonoBehaviour {
 	}
 	public void runbutton(){
 		speedZ = 8;
-		run.interactable = false;
-		walk.interactable = true;
+		run.interactable = true;
+		walk.interactable = false;
 	}
 	public void walkbutton(){
 		speedZ = 5;
-		run.interactable = true;
-		walk.interactable = false;
+		run.interactable = false;
+		walk.interactable = true;
 	}
 }
