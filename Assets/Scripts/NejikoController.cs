@@ -27,7 +27,7 @@ public class NejikoController : MonoBehaviour {
 		var audios = GetComponents<AudioSource>();
 		walksound = audios [0];
 		jumpsound = audios [1];
-		speedZ = 20;
+		speedZ = 8;
 	}
 	
 	// Update is called once per frame
