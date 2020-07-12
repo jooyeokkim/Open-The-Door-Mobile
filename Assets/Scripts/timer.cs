@@ -8,6 +8,8 @@ public class timer : MonoBehaviour {
 	private float time;
 	private float starttime;
 	private bool isplaying;
+	private int intmin;
+	private int intsecond;
 	// Use this for initialization
 	void Start () {
 		timertext = GetComponent<Text> ();
@@ -19,8 +21,8 @@ public class timer : MonoBehaviour {
 	void Update () {
 		if (isplaying) {
 			time = Time.time - starttime;
-			int intmin = (int)time / 60;
-			int intsecond = (int)time % 60;
+			intmin = (int)time / 60;
+			intsecond = (int)time % 60;
 			float floatmillisecond = (time % 1) * 98.3f;
 			string min = intmin.ToString ();
 			string second = intsecond.ToString ();
@@ -38,4 +40,7 @@ public class timer : MonoBehaviour {
 	public void gameover(){
 		isplaying = false;
 	}
+	public int getrecord(){
+		return intmin * 60 + intsecond;
+	}	
 }
