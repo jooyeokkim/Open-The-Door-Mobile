@@ -75,13 +75,15 @@ public class NejikoController : MonoBehaviour {
 		if(Input.GetKey(KeyCode.C)) scharacter.Change("C3");
 	}
 	public void runbutton(){
+		Debug.Log ("run");
 		speedZ = 8;
-		run.interactable = true;
-		walk.interactable = false;
-	}
-	public void walkbutton(){
-		speedZ = 5;
 		run.interactable = false;
 		walk.interactable = true;
+	}
+	public void walkbutton(){
+		Debug.Log ("walk");
+		speedZ = 5;
+		run.interactable = true;
+		walk.interactable = false;
 	}
 }
