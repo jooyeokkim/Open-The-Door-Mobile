@@ -7,10 +7,15 @@ public class Stages : MonoBehaviour
 {
 	public GameObject scrollbar;
 	public GameObject loading;
-	private float scroll_pos = 400;
+	private float scroll_pos = 0;
 	float[] pos;
+	void Start(){
+		scrollbar.GetComponent<Scrollbar> ().value = (float) 2 / 6;
+		scroll_pos = (float) 2 / 6;
+	}
 	void Update()
 	{
+		Debug.Log (scroll_pos);
 		pos = new float[transform.childCount];
 		float distance = 1f / (pos.Length - 1f);
 		for (int i = 0; i < pos.Length; i++)
