@@ -7,7 +7,7 @@ public class Stages : MonoBehaviour
 {
 	public GameObject scrollbar;
 	public GameObject loading;
-	private float scroll_pos = 0;
+	private float scroll_pos = 400;
 	float[] pos;
 	void Update()
 	{
