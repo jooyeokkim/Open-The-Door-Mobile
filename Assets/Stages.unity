@@ -1203,7 +1203,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 527555811}
   m_OnClick:
     m_PersistentCalls:
@@ -1845,7 +1845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e516091a3b4ba5640892e16dc34b5734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stage: 0
   scrollbar: {fileID: 1202677557}
   loading: {fileID: 1768863863}
 --- !u!1 &947183679
