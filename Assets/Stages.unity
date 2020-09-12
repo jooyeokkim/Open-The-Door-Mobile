@@ -1209,7 +1209,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
