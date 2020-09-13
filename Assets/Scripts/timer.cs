@@ -22,7 +22,7 @@ public class timer : MonoBehaviour {
 	void Update () {
 		if (isplaying) {
 			time = Time.time - starttime;
-			intmin = (int)time / 60;
+			intmin = (int)(time * 0.0166666f);
 			intsecond = (int)time % 60;
 			floatmillisecond = (time % 1) * 100;
 			string min = intmin.ToString ();
