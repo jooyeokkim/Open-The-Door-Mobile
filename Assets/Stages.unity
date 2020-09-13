@@ -182,13 +182,13 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 29058811}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1445,13 +1445,13 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 603592345}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1482,7 +1482,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ec720f7df735306419a77161a06288fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea1c6dc0c78248642a24775e0d019b15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

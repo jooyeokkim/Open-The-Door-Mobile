@@ -34,8 +34,8 @@ public class timer : MonoBehaviour {
 				second = "0" + second;
 			if (floatmillisecond < 10)
 				millisecond = "0" + millisecond;
-			if (floatmillisecond >= 99)
-				millisecond = "99";
+			if (floatmillisecond >= 98)
+				millisecond = "98";
 			timertext.text = min + ":" + second + ":" + millisecond;
 		} else
 			timertext.color = new Color (0.9f, 0.1f, 0.1f);
@@ -44,6 +44,6 @@ public class timer : MonoBehaviour {
 		isplaying = false;
 	}
 	public float getrecord(){
-		return intmin * 60 + intsecond + floatmillisecond / 100;
+		return intmin * 60 + intsecond + floatmillisecond * 0.01f;
 	}	
 }
