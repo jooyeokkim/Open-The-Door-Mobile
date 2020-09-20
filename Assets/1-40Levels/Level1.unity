@@ -4949,6 +4949,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 20201615039887944, guid: c7b39321f8ea0154db305fe04298754d,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 1792
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b39321f8ea0154db305fe04298754d, type: 2}
   m_IsPrefabParent: 0
@@ -5628,6 +5633,10 @@ Prefab:
     - target: {fileID: 400000, guid: a35a81abab8c1407aab4e2a95c6be17b, type: 2}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a35a81abab8c1407aab4e2a95c6be17b, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35a81abab8c1407aab4e2a95c6be17b, type: 2}
