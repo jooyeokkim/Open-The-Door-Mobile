@@ -2446,7 +2446,7 @@ Prefab:
     - target: {fileID: 114386914572379574, guid: 54461337fc74d9145b509a0f95dab9ef,
         type: 2}
       propertyPath: m_Text
-      value: 01:18:97
+      value: 01:17:36
       objectReference: {fileID: 0}
     - target: {fileID: 114786800241517988, guid: 54461337fc74d9145b509a0f95dab9ef,
         type: 2}
@@ -2466,7 +2466,7 @@ Prefab:
     - target: {fileID: 114118241870243068, guid: 54461337fc74d9145b509a0f95dab9ef,
         type: 2}
       propertyPath: m_Text
-      value: 01:18:97
+      value: 01:17:36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 54461337fc74d9145b509a0f95dab9ef, type: 2}
@@ -9339,7 +9339,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.9264706, g: 0.5913062, b: 0.088559665, a: 1}
+  m_Color: {r: 0.9044118, g: 0.6349228, b: 0.15295199, a: 1}
   m_Intensity: 0.6
   m_Range: 10
   m_SpotAngle: 30

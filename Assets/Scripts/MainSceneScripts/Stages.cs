@@ -10,8 +10,8 @@ public class Stages : MonoBehaviour
 	private float scroll_pos = 0;
 	float[] pos;
 	void Start(){
-		scrollbar.GetComponent<Scrollbar> ().value = (float) 3 / 6;
-		scroll_pos = (float) 3 / 6;
+		scrollbar.GetComponent<Scrollbar> ().value = (float) 6 / 17;
+		scroll_pos = (float) 6 / 17;
 	}
 	void Update()
 	{
@@ -57,4 +57,5 @@ public class Stages : MonoBehaviour
 	public void SelectStage4(){SceneManager.LoadScene (6); loading.SetActive (true);}
 	public void SelectStage5(){SceneManager.LoadScene (7); loading.SetActive (true);}
 	public void SelectStage6(){SceneManager.LoadScene (8); loading.SetActive (true);}
+	public void SelectStage7(){SceneManager.LoadScene (9); loading.SetActive (true);}
 }
