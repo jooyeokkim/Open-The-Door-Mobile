@@ -188,7 +188,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 13671999}
   - component: {fileID: 13671998}
   m_Layer: 5
-  m_Name: LEVEL7 (3)
+  m_Name: LEVEL10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,13 +305,13 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 13671999}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -678,7 +678,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4964,7 +4964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 3.8
-  m_Text: 'LEVEL 7
+  m_Text: 'LEVEL 10
 
 '
 --- !u!222 &1329727953
@@ -6597,13 +6597,13 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1845917853}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage2
+        m_MethodName: SelectStage10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6634,7 +6634,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ec720f7df735306419a77161a06288fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 32cac1e44edc557488f19839545dd505, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

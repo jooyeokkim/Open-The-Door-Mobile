@@ -10,8 +10,8 @@ public class Stages : MonoBehaviour
 	private float scroll_pos = 0;
 	float[] pos;
 	void Start(){
-		scrollbar.GetComponent<Scrollbar> ().value = (float) 6 / 17;
-		scroll_pos = (float) 6 / 17;
+		scrollbar.GetComponent<Scrollbar> ().value = (float) 9 / 17;
+		scroll_pos = (float) 9 / 17;
 	}
 	void Update()
 	{
