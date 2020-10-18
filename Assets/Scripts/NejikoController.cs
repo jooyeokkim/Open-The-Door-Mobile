@@ -43,17 +43,17 @@ public class NejikoController : MonoBehaviour {
 				}
 			}
 			if (moveDirection.z < -0.1) {
-				transform.Rotate (0, Input.GetAxis ("Horizontal"), 0); //for pc
+				//transform.Rotate (0, Input.GetAxis ("Horizontal"), 0); //for pc
 				transform.Rotate (0, stick.GetJoystickPosition ().x, 0);
 				moveDirection.z = stick.GetJoystickPosition().y * 5;
 			} else {
-				transform.Rotate (0, Input.GetAxis ("Horizontal") * 2, 0); //for pc
+				//transform.Rotate (0, Input.GetAxis ("Horizontal") * 2, 0); //for pc
 				transform.Rotate (0, stick.GetJoystickPosition ().x * 2, 0);
 				moveDirection.z = stick.GetJoystickPosition().y * speedZ;
 			}
-			//animator.SetFloat ("h", Input.GetAxis ("Horizontal")); //for pc
+			animator.SetFloat ("h", Input.GetAxis ("Horizontal")); //for pc
 			animator.SetFloat ("h", stick.GetJoystickPosition().x);
-			//animator.SetFloat ("v", Input.GetAxis ("Vertical")); //for pc
+			animator.SetFloat ("v", Input.GetAxis ("Vertical")); //for pc
 			animator.SetFloat ("v", stick.GetJoystickPosition().y);
 			if ((Input.GetAxis("Vertical")>0.1 || stick.GetJoystickPosition ().y > 0.1 )&& !walksound.isPlaying)
 				walksound.Play ();
