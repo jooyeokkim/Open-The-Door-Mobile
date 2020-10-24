@@ -163,6 +163,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -221,6 +225,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -240,7 +248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &46197488
 Transform:
@@ -368,7 +376,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &194265138
 Transform:
@@ -478,6 +486,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -1162,7 +1174,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &245320477
 Transform:
@@ -1283,6 +1295,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -1341,6 +1357,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -1358,7 +1378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &280614718
 Transform:
@@ -1573,7 +1593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &347804738
 Transform:
@@ -1823,6 +1843,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -2035,6 +2059,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -2092,6 +2120,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -2198,6 +2230,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -2217,7 +2253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &560942875
 Transform:
@@ -2490,7 +2526,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &620580427
 Transform:
@@ -2694,7 +2730,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &634456178
 Transform:
@@ -2815,6 +2851,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -2872,6 +2912,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -2933,6 +2977,10 @@ Prefab:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1404339637283262, guid: 4f29512b5e2fa174ab02b5b8489fe7f6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f29512b5e2fa174ab02b5b8489fe7f6, type: 2}
   m_IsPrefabParent: 0
@@ -2958,7 +3006,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &679874904
 Transform:
@@ -3040,7 +3088,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &688650654
 Transform:
@@ -3160,6 +3208,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -3735,6 +3787,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -4635,6 +4691,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -4711,7 +4771,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &982653458
 Transform:
@@ -4852,6 +4912,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -4871,7 +4935,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1031899978
 Transform:
@@ -5028,6 +5092,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -5085,6 +5153,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -5144,6 +5216,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -5163,7 +5239,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1076369306
 Transform:
@@ -5283,6 +5359,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -5414,6 +5494,10 @@ Prefab:
     - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
       propertyPath: m_Name
       value: sonamoo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
@@ -5550,7 +5634,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1234672327
 Transform:
@@ -5632,7 +5716,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1236672133
 Transform:
@@ -5755,6 +5839,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -6009,6 +6097,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -6050,7 +6142,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1312837402
 Transform:
@@ -6174,6 +6266,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -6193,7 +6289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1318446689
 Transform:
@@ -6381,6 +6477,10 @@ Prefab:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1202043619409108, guid: d52c63336a42ef140a2ab9e6298d3d94, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d52c63336a42ef140a2ab9e6298d3d94, type: 2}
   m_IsPrefabParent: 0
@@ -6495,6 +6595,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -6572,6 +6676,10 @@ Prefab:
     - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
       propertyPath: m_Name
       value: sonamoo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
@@ -6666,7 +6774,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1481787176
 Transform:
@@ -6844,7 +6952,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1502625291
 Transform:
@@ -6960,6 +7068,10 @@ Prefab:
     - target: {fileID: 4000013367559476, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -7136,6 +7248,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -7233,6 +7349,10 @@ Prefab:
       propertyPath: m_Name
       value: sonamoo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
   m_IsPrefabParent: 0
@@ -7312,6 +7432,10 @@ Prefab:
     - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
       propertyPath: m_Name
       value: Sand_Pillar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
@@ -7431,7 +7555,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1672145125
 Transform:
@@ -7589,7 +7713,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1684891621
 Transform:
@@ -7815,6 +7939,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8039,6 +8167,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8163,6 +8295,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8221,6 +8357,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8251,7 +8391,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1915633272
 Transform:
@@ -8383,7 +8523,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1953578044
 Transform:
@@ -8504,6 +8644,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8590,6 +8734,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8648,6 +8796,10 @@ Prefab:
       propertyPath: m_Name
       value: Sand_Pillar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7622e996fc1300e4eb8e18a545cd9a51, type: 2}
   m_IsPrefabParent: 0
@@ -8693,6 +8845,10 @@ Prefab:
     - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
       propertyPath: m_Name
       value: sonamoo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
@@ -8907,7 +9063,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2094545594
 Transform:
@@ -9011,6 +9167,10 @@ Prefab:
     - target: {fileID: 400000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
       propertyPath: m_RootOrder
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a2d7866d69b4fd69842a710242fd1d, type: 2}
