@@ -48,8 +48,10 @@ public class NejikoController : MonoBehaviour {
 				moveDirection.z = stick.GetJoystickPosition().y * 5;
 			} else {
 				//transform.Rotate (0, Input.GetAxis ("Horizontal") * 2, 0); //for pc
+				//moveDirection.z = Input.GetAxis ("Vertical") * speedZ; //for jump test
 				transform.Rotate (0, stick.GetJoystickPosition ().x * 2, 0);
 				moveDirection.z = stick.GetJoystickPosition().y * speedZ;
+				Debug.Log (moveDirection.z);
 			}
 			animator.SetFloat ("h", Input.GetAxis ("Horizontal")); //for pc
 			animator.SetFloat ("h", stick.GetJoystickPosition().x);

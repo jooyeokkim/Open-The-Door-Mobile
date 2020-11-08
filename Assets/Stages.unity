@@ -555,7 +555,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage12
+        m_MethodName: SelectStage15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -586,7 +586,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9527bb742b479422f82f845d17c6cc9c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9645dc0bfdc438d40ad6e03df26006be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3374,7 +3374,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 932674952}
-        m_MethodName: SelectStage12
+        m_MethodName: SelectStage15
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
