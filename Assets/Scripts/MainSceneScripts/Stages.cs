@@ -66,4 +66,6 @@ public class Stages : MonoBehaviour
 	public void SelectStage13(){SceneManager.LoadScene (15); loading.SetActive (true);}
 	public void SelectStage14(){SceneManager.LoadScene (16); loading.SetActive (true);}
 	public void SelectStage15(){SceneManager.LoadScene (17); loading.SetActive (true);}
+	public void SelectStage16(){SceneManager.LoadScene (18); loading.SetActive (true);}
+	public void SelectStage17(){SceneManager.LoadScene (19); loading.SetActive (true);}
 }
