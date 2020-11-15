@@ -57,9 +57,9 @@ GameObject:
   - component: {fileID: 65691591637455876}
   - component: {fileID: 23795131896848256}
   - component: {fileID: 54224580687522540}
-  - component: {fileID: 114973923551408092}
   - component: {fileID: 82320678300100850}
   - component: {fileID: 82639458905697108}
+  - component: {fileID: 114958613671200684}
   m_Layer: 0
   m_Name: PurpleButton
   m_TagString: Untagged
@@ -429,7 +429,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114973923551408092
+--- !u!114 &114958613671200684
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -437,10 +437,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1855010799957518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3849eda5eb805d546b5153d56308bfb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5935a46e421804e4faa27ef19810643a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bluedoors: []
+  purpledoors:
+  - {fileID: 0}
   manageallbuttons: {fileID: 0}
 --- !u!212 &212315413060836894
 SpriteRenderer:
