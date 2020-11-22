@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Mainmenu.unity
     guid: 0c1dbdec410700b418dbd33a7bd6daed
   - enabled: 1
-    path: Assets/Stages.unity
-    guid: d2686b18542639c4e9515776fe9e79e8
+    path: Assets/newStages.unity
+    guid: 6768625644bea1f48a0f56f14320747f
   - enabled: 1
     path: Assets/Guide.unity
     guid: 7da89eb94708fe8409a31d588c10890f
@@ -68,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1-40Levels/Level17.unity
     guid: 9383ee2007016f646b89283e5554592a
+  - enabled: 1
+    path: Assets/1-40Levels/Level18.unity
+    guid: cf4fbc769e3862c47aa45706c7a79f1c
   - enabled: 0
     path: Assets/Door_Stimulation_20200607.unity
     guid: fe2052e1a6273f84d9208025bade28b7
