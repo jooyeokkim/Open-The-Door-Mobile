@@ -20,10 +20,10 @@ Material:
     m_TexEnvs:
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 551d93cdf68af964fbcac774aec745de, type: 3}
-        m_Scale: {x: 60, y: 60}
+        m_Scale: {x: 70, y: 70}
         m_Offset: {x: 0, y: 0}
     - _Cube:
-        m_Texture: {fileID: 8900000, guid: ab32b7db83aa38d4da2d595f6b7bc3f2, type: 3}
+        m_Texture: {fileID: 8900000, guid: cbcb9580f61bfc14e94691677952bab2, type: 3}
         m_Scale: {x: 30, y: 30}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -33,6 +33,6 @@ Material:
     m_Floats:
     - _Shininess: 1
     m_Colors:
-    - _Color: {r: 0.6397059, g: 0.85517585, b: 1, a: 1}
-    - _ReflectColor: {r: 0.61947274, g: 0.58823526, b: 1, a: 1}
-    - _SpecColor: {r: 0.9117647, g: 0.96713996, b: 1, a: 1}
+    - _Color: {r: 0.66176474, g: 0.90202856, b: 1, a: 1}
+    - _ReflectColor: {r: 0.26600346, g: 0.29575816, b: 0.88235295, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
