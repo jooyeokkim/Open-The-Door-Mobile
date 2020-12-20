@@ -69,7 +69,7 @@ public class NejikoController : MonoBehaviour {
 			} else
 				jumpbutton.interactable = false;
 			//animator.SetBool ("run", moveDirection.z > 0.0f);
-			//animator.GetCurrentAnimatorStateInfo (0).IsName ("JUMP00")
+			//animator.GetCurrentAnimatorStateInfo (0).IsName ("JUMP00");
 		}
 		if(Input.GetKey(KeyCode.Z)) scharacter.Change("C1");
 		if(Input.GetKey(KeyCode.X)) scharacter.Change("C2");
