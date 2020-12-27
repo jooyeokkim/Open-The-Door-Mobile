@@ -85,6 +85,9 @@ EditorBuildSettings:
     guid: 299e74e42e2227e43a99e642eebbf17c
   - enabled: 1
     path: Assets/1-40Levels/Level23.unity
+    guid: 48be9b305eedc1549987c5f2584c98cd
+  - enabled: 1
+    path: Assets/1-40Levels/Level24.unity
     guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Door_Stimulation_20200607.unity
