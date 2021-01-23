@@ -63,7 +63,7 @@ public class NejikoController : MonoBehaviour {
 			//if((Input.GetAxis("Vertical") < -0.1 || stick.GetJoystickPosition ().y < -0.1 ))
 			Vector3 globalDirection = transform.TransformDirection (moveDirection);
 			controller.Move (globalDirection * Time.deltaTime);
-			if (controller.isGrounded) {
+			if (controller.isGrounded && !animator.GetCurrentAnimatorStateInfo (0).IsName ("JUMP00")) {
 				moveDirection.y = 0;
 				jumpbutton.interactable = true;
 			} else
