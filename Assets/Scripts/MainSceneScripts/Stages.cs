@@ -8,14 +8,16 @@ public class Stages : MonoBehaviour
 	public GameObject scrollbar;
 	public GameObject loading;
 	private float scroll_pos = 0;
+	private int stagelevel = 1;
 	float[] pos;
 	void Start(){
-		scrollbar.GetComponent<Scrollbar> ().value = (float) 30 / 40;
-		scroll_pos = (float) 30 / 40;
+		scrollbar.GetComponent<Scrollbar> ().value = (float) stagelevel / 40 - 0.013f + (stagelevel-20)*0.0006f;
+		scroll_pos = scrollbar.GetComponent<Scrollbar> ().value;
+		pos = new float[transform.childCount];
 	}
 	void Update()
 	{
-		pos = new float[transform.childCount];
+		scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
 		float distance = 1f / (pos.Length - 1f);
 		for (int i = 0; i < pos.Length; i++)
 		{
@@ -25,16 +27,6 @@ public class Stages : MonoBehaviour
 		if (Input.GetMouseButton(0))
 		{
 			scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
-		}
-		else
-		{
-			for (int i = 0; i < pos.Length; i++)
-			{
-				if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
-				{
-					scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.1f);
-				}
-			}
 		}
 		for (int i = 0; i < pos.Length; i++)
 		{
