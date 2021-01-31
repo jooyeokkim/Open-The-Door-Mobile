@@ -34,7 +34,7 @@ public class NejikoController : MonoBehaviour {
 	void Update () {
 		if (scharacter.GetSelect ()==this.tag) {
 			if (controller.isGrounded) {
-				if (Input.GetButtonDown ("Jump")||jumper.GetJumpState()) { //for pc/moblie
+				if (Input.GetButtonDown ("Jump")||jumper.GetJumpState()&&jumpbutton.IsInteractable()) { //for pc/moblie
 					moveDirection.y = speedJump;
 					animator.Play ("JUMP00");
 					jumper.ChangeJumpState ();

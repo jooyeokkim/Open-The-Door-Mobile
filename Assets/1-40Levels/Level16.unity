@@ -1568,6 +1568,41 @@ Transform:
   m_PrefabParentObject: {fileID: 4556865972649570, guid: d52c63336a42ef140a2ab9e6298d3d94,
     type: 2}
   m_PrefabInternal: {fileID: 191967568}
+--- !u!1 &199626576 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1121693883423850, guid: b3a613989aab6f44ca46b88af468e071,
+    type: 2}
+  m_PrefabInternal: {fileID: 945826800}
+--- !u!114 &199626578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199626576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 899591989}
+          m_MethodName: ChangeJumpState
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &201105060 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000013539010130, guid: 7622e996fc1300e4eb8e18a545cd9a51,
@@ -8624,6 +8659,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114086481806587672, guid: b3a613989aab6f44ca46b88af468e071,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224900742031376564, guid: b3a613989aab6f44ca46b88af468e071,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -8852,6 +8892,26 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: Level 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114086481806587672, guid: b3a613989aab6f44ca46b88af468e071,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeJumpState
+      objectReference: {fileID: 0}
+    - target: {fileID: 114086481806587672, guid: b3a613989aab6f44ca46b88af468e071,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114086481806587672, guid: b3a613989aab6f44ca46b88af468e071,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114086481806587672, guid: b3a613989aab6f44ca46b88af468e071,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114593458091437246, guid: b3a613989aab6f44ca46b88af468e071, type: 2}
