@@ -11,6 +11,7 @@ public class NejikoController : MonoBehaviour {
 	public Button run;
 	public Button walk;
 	Vector3 moveDirection = Vector3.zero;
+	Vector3 globalDirection = Vector3.zero;
 	public float gravity;
 	float speedZ;
 	public float speedJump;
@@ -34,7 +35,9 @@ public class NejikoController : MonoBehaviour {
 	void Update () {
 		if (scharacter.GetSelect ()==this.tag) {
 			if (controller.isGrounded) {
-				if (Input.GetButtonDown ("Jump")||jumper.GetJumpState()&&jumpbutton.IsInteractable()) { //for pc/moblie
+				Debug.Log (jumpbutton.IsInteractable());
+				//if (jumper.GetJumpState()&&jumpbutton.IsInteractable()) { //for moblie
+				if (Input.GetKeyDown("space")&&jumpbutton.IsInteractable()) { //for pc
 					moveDirection.y = speedJump;
 					animator.Play ("JUMP00");
 					jumper.ChangeJumpState ();
@@ -61,7 +64,7 @@ public class NejikoController : MonoBehaviour {
 			moveDirection.y -= gravity * Time.deltaTime;
 
 			//if((Input.GetAxis("Vertical") < -0.1 || stick.GetJoystickPosition ().y < -0.1 ))
-			Vector3 globalDirection = transform.TransformDirection (moveDirection);
+			globalDirection = transform.TransformDirection (moveDirection);
 			controller.Move (globalDirection * Time.deltaTime);
 			if (controller.isGrounded && !animator.GetCurrentAnimatorStateInfo (0).IsName ("JUMP00")) {
 				moveDirection.y = 0;
@@ -88,3 +91,4 @@ public class NejikoController : MonoBehaviour {
 		walk.interactable = false;
 	}
 }
+
