@@ -1731,7 +1731,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage38
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3539,7 +3539,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage40
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4918,7 +4918,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage37
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6551,7 +6551,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage39
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6844,7 +6844,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage35
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10362,7 +10362,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage37
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12048,7 +12048,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage36
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14064,7 +14064,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage38
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15968,7 +15968,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage39
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16688,7 +16688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage36
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17529,7 +17529,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage35
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17561,7 +17561,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4bdcd06715c4be24db3b118ebd9d2646, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4563046f01347643aec837df86cfe17, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20341,6 +20341,24 @@ Prefab:
       propertyPath: m_DecelerationRate
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 114210869428574058, guid: 83a14768715dd0e4e91bea3e9f35904e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d83da1f334406b4eb3cc9c1bae47259,
+        type: 3}
+    - target: {fileID: 114941254953318258, guid: 83a14768715dd0e4e91bea3e9f35904e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7dcbbd069fe0fa14cba228dbde08c857,
+        type: 3}
+    - target: {fileID: 114808799129067946, guid: 83a14768715dd0e4e91bea3e9f35904e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6728e719121b07408510ef1d4628311,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83a14768715dd0e4e91bea3e9f35904e, type: 2}
   m_IsPrefabParent: 0
@@ -20719,7 +20737,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1116465456}
-        m_MethodName: SelectStage31
+        m_MethodName: SelectStage40
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

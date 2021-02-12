@@ -118,6 +118,24 @@ EditorBuildSettings:
     guid: 9cbd2de77e831cb4cbec3cbb0342664f
   - enabled: 1
     path: Assets/1-40Levels/Level34.unity
+    guid: 392306d8466991245a6ea676c4d95493
+  - enabled: 1
+    path: Assets/1-40Levels/Level35.unity
+    guid: 334dd1ff36603d749a1a869c85e27030
+  - enabled: 1
+    path: Assets/1-40Levels/Level36.unity
+    guid: 9b8a9e861cb972040a9acb83527088be
+  - enabled: 1
+    path: Assets/1-40Levels/Level37.unity
+    guid: e412c86fb0ec6f64aa0e321119543542
+  - enabled: 1
+    path: Assets/1-40Levels/Level38.unity
+    guid: 63185270a647e6d4ca264af7462ae326
+  - enabled: 1
+    path: Assets/1-40Levels/Level39.unity
+    guid: fece778dbb97ec04893265651bec8c10
+  - enabled: 1
+    path: Assets/1-40Levels/Level40.unity
     guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Door_Stimulation_20200607.unity
