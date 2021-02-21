@@ -14,6 +14,15 @@ public class LockStages : MonoBehaviour {
 	// Use this for initialization
 	private int user_level = 2;
 	void Start () {
+		LoadLevelData ();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+	void LoadLevelData() {
 		for (int i = user_level + 1; i <= 40; i++) {
 			string levelnum = "LEVEL" + i;
 			level = this.gameObject.transform.Find (levelnum).gameObject;
@@ -28,24 +37,8 @@ public class LockStages : MonoBehaviour {
 
 			image = button.GetComponent<Image> ();
 			image.sprite = lockimage;
-
-			dia.SetActive (false);
-		}
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
-	}
-
-	GameObject GetChildWithName(GameObject obj, string name) {
-		Transform trans = obj.transform;
-		Transform childTrans = trans.Find (name);
-		if (childTrans != null) {
-			return childTrans.gameObject;
-		} else {
-			return null;
+			dia.SetActive (false);
 		}
 	}
 }

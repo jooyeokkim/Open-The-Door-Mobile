@@ -15410,7 +15410,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1093999732041416, guid: 1b2fe6ec374b7a24b8d4b8c203602777, type: 2}
       propertyPath: m_Name
-      value: diamonds
+      value: userdia
       objectReference: {fileID: 0}
     - target: {fileID: 114462877598041818, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
         type: 2}
@@ -15440,6 +15440,17 @@ Prefab:
     - target: {fileID: 1093999732041416, guid: 1b2fe6ec374b7a24b8d4b8c203602777, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114815171430712132, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5fd28df9afe248845b1425917bf17984,
+        type: 3}
+    - target: {fileID: 114815171430712132, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b2fe6ec374b7a24b8d4b8c203602777, type: 2}
@@ -19862,7 +19873,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4bdcd06715c4be24db3b118ebd9d2646, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 842df04ea238fb34386b59018c61b1cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
