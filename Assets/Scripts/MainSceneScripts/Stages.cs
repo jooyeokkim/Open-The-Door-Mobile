@@ -5,13 +5,16 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Stages : MonoBehaviour
 {
+	public GameObject StageCanvas;
 	public GameObject scrollbar;
 	public GameObject loading;
 	private float scroll_pos = 0;
-	private int stagelevel = 39;
+	private int stagelevel = 30;
 	float[] pos;
 	void Start(){
-		scrollbar.GetComponent<Scrollbar> ().value = (float) stagelevel / 40 - 0.013f + (stagelevel-20)*0.0006f;
+		StageCanvas.SetActive (false);
+		StageCanvas.SetActive (true);
+		scrollbar.GetComponent<Scrollbar> ().value = (float) stagelevel / 40 - 0.013f + (stagelevel-20)*0.00066f;
 		scroll_pos = scrollbar.GetComponent<Scrollbar> ().value;
 		pos = new float[transform.childCount];
 	}

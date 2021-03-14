@@ -23951,6 +23951,11 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: -71.600006
       objectReference: {fileID: 0}
+    - target: {fileID: 114811775715102650, guid: 83a14768715dd0e4e91bea3e9f35904e,
+        type: 2}
+      propertyPath: StageCanvas
+      value: 
+      objectReference: {fileID: 2109024328}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83a14768715dd0e4e91bea3e9f35904e, type: 2}
   m_IsPrefabParent: 0
@@ -26878,6 +26883,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b2fe6ec374b7a24b8d4b8c203602777, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2109024328 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1965864579689858, guid: 83a14768715dd0e4e91bea3e9f35904e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1802066909}
 --- !u!1001 &2111081428
 Prefab:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Goals : MonoBehaviour {
 	int count;
@@ -20,6 +21,7 @@ public class Goals : MonoBehaviour {
 		clear = GetComponent<AudioSource> ();
 		count = 0;
 		clearpanel.SetActive (false);
+		Debug.Log(SceneManager.GetActiveScene ().name);
 	}
 	public void UpCount() {
 		if(!isgameover) count++;
