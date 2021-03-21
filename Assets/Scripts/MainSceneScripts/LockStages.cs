@@ -12,8 +12,9 @@ public class LockStages : MonoBehaviour {
 	private GameObject dia;
 	public Sprite lockimage;
 	// Use this for initialization
-	private int user_level = 39;
+	private int user_level;
 	void Start () {
+		user_level = 1;
 		LoadLevelData ();
 	}
 	

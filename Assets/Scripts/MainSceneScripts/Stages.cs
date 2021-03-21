@@ -9,11 +9,12 @@ public class Stages : MonoBehaviour
 	public GameObject scrollbar;
 	public GameObject loading;
 	private float scroll_pos = 0;
-	private int stagelevel = 30;
+	private int stagelevel;
 	float[] pos;
 	void Start(){
 		StageCanvas.SetActive (false);
 		StageCanvas.SetActive (true);
+		stagelevel = 1;
 		scrollbar.GetComponent<Scrollbar> ().value = (float) stagelevel / 40 - 0.013f + (stagelevel-20)*0.00066f;
 		scroll_pos = scrollbar.GetComponent<Scrollbar> ().value;
 		pos = new float[transform.childCount];
