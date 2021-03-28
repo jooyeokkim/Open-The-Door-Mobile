@@ -11498,6 +11498,7 @@ MonoBehaviour:
   - {fileID: 0}
   diareward: {fileID: 0}
   diarewardtext: {fileID: 0}
+  myrecord: {fileID: 0}
   time: {fileID: 0}
   clearpanel: {fileID: 0}
 --- !u!82 &878432409
@@ -13717,7 +13718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 0
 --- !u!222 &1069941750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15415,12 +15416,12 @@ Prefab:
     - target: {fileID: 114462877598041818, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
         type: 2}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.39215687
       objectReference: {fileID: 0}
     - target: {fileID: 114626411335978540, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
         type: 2}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.39215687
       objectReference: {fileID: 0}
     - target: {fileID: 114815171430712132, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
         type: 2}
@@ -15450,6 +15451,16 @@ Prefab:
     - target: {fileID: 114815171430712132, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
         type: 2}
       propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114863837697939614, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114260934876203154, guid: 1b2fe6ec374b7a24b8d4b8c203602777,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27515,4 +27526,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d411f76efff4ec478d98500d016d012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diaSumText: {fileID: 1069941749}
   lockimage: {fileID: 21300000, guid: a2db8e08354c86f42a502697cdc6c834, type: 3}

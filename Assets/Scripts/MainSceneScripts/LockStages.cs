@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class LockStages : MonoBehaviour {
+	public Text diaSumText;
 	private GameObject level;
 	private Image image;
 	private Button frameButton;
@@ -11,35 +12,42 @@ public class LockStages : MonoBehaviour {
 	private GameObject button;
 	private GameObject dia;
 	public Sprite lockimage;
+	int diaSum;
 	// Use this for initialization
-	private int user_level;
+	private int userLevel;
 	void Start () {
-		user_level = 1;
-		LoadLevelData ();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		//PlayerPrefs.DeleteAll ();
+		diaSum = 0;
+		userLevel = PlayerPrefs.GetInt ("CurrentLevel", 1);
+		loadLevel ();
 	}
 
-	void LoadLevelData() {
-		for (int i = user_level + 1; i <= 40; i++) {
+	void loadLevel() {
+		for (int i = 1; i <= 40; i++) {
 			string levelnum = "LEVEL" + i;
 			level = this.gameObject.transform.Find (levelnum).gameObject;
-			frameButton = level.GetComponent<Button> ();
-			frameButton.interactable = false;
-
 			button = level.transform.Find ("Button").gameObject;
 			dia = level.transform.Find ("userdia").gameObject;
-
+			frameButton = level.GetComponent<Button> ();
 			imageButton = button.GetComponent<Button> ();
-			imageButton.interactable = false;
-
 			image = button.GetComponent<Image> ();
-			image.sprite = lockimage;
-		
-			dia.SetActive (false);
+
+			if (i <= userLevel) {
+				int userdia = PlayerPrefs.GetInt ("Level" + i + "Bestdia", 0);
+				diaSum += userdia;
+				diaSumText.text = diaSum.ToString ();
+				for (int j = 1; j <= userdia; j++) {
+					Debug.Log (j);
+					Button diaImage = dia.transform.GetChild (j - 1).GetComponent<Button> ();
+					Debug.Log (diaImage.name);
+					diaImage.image.color = new Color (114 / 255f, 233 / 255f, 249 / 255f, 255 / 255f);
+				}
+			}
+			else {
+				frameButton.interactable = false;
+				imageButton.interactable = false;
+				image.sprite = lockimage;
+			}
 		}
 	}
 }

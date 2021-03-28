@@ -46,4 +46,7 @@ public class timer : MonoBehaviour {
 	public float getrecord(){
 		return intmin * 60 + intsecond + floatmillisecond * 0.01f;
 	}	
+	public string getTimertext(){
+		return timertext.text;
+	}
 }
